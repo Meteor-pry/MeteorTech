@@ -1,1 +1,7 @@
-B
+{
+  "game": {
+    "game_id": "ff-001",
+    "nombre": "FreeFire / FreeFire Max",
+    "status": "V"
+  }
+}
