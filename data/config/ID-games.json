@@ -1,36 +1,22 @@
 {
-  "vinculacion_maestra": [
+  "vinculacion_juegos": [
     {
       "game_id": "ff-001",
       "rank_id": "101",
       "status": "V",
-      "posicion_lista": 1
+      "orden": 1
     },
     {
       "game_id": "cod-002",
       "rank_id": "102",
       "status": "V",
-      "posicion_lista": 2
+      "orden": 2
     },
     {
       "game_id": "fort-003",
       "rank_id": "303",
       "status": "F",
-      "posicion_lista": 3
+      "orden": 3
     }
-  ],
-  "configuracion_ia_sistema": {
-    "objetivo": "Vincular identidades de juegos con sus etiquetas de rango",
-    "instrucciones_de_lectura": {
-      "paso_1": "Identificar el 'game_id' para saber qué juego procesar.",
-      "paso_2": "Consultar 'rank_id' en el archivo 'config/ranks.json' para obtener el texto del título.",
-      "paso_3": "Verificar el campo 'status'. Si es 'V', procesar; si es 'F', ignorar.",
-      "paso_4": "Renderizar en la interfaz siguiendo el orden de 'posicion_lista'."
-    },
-    "reglas_de_estado": {
-      "V": "Visible / Público",
-      "F": "Oculto / Privado"
-    }
-  }
+  ]
 }
- 
