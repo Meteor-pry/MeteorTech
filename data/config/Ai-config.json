@@ -1,0 +1,36 @@
+{
+  "rutas_repositorio": {
+    "directorio_base": "tech/data/",
+    "carpeta_juegos": "tech/data/games/",
+    "carpeta_config": "tech/data/config/"
+  },
+  "config_identidad": {
+    "sistema": "MeteorTech",
+    "metodo_sincronizacion": "ID_MATCHING",
+    "prioridad_archivo": "id-games.json"
+  },
+  "config_visibilidad": {
+    "fuente_estado": "id-games.json",
+    "campo_validacion": "status",
+    "valor_publico": "V",
+    "valor_privado": "F",
+    "instruccion": "Si el status es 'F', detener proceso para ese game_id."
+  },
+  "config_vinculacion_datos": {
+    "archivo_indice": "tech/data/config/id-games.json",
+    "mapeo": {
+      "id_juego": "game_id",
+      "id_etiqueta": "rank_id"
+    },
+    "validacion_ficheros": "Buscar archivo .json en /data/games/ que coincida con el game_id."
+  },
+  "config_etiquetas_ranks": {
+    "archivo_diccionario": "tech/data/config/ranks.json",
+    "formato_salida": "Obtener campo 'titulo' usando el 'rank_id'",
+    "estilo_visual": "Texto entre brackets < >"
+  },
+  "config_interfaz": {
+    "logica_ordenamiento": "Seguir propiedad 'orden' en id-games.json",
+    "renderizado": "Combinar Nombre (de /games/) + Titulo (de ranks.json) + Estado (de id-games.json)"
+  }
+}
