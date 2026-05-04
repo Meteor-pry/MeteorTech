@@ -2,36 +2,29 @@
   "lista_ranks": {
     "prioridad_alta": [
       { "id": "101", "titulo": "<Popular>" },
-      { "id": "102", "titulo": "<Nuevo>" },
-      { "id": "103", "titulo": "<Tendencia>" },
-      { "id": "104", "titulo": "<Recomendado>" },
-      { "id": "105", "titulo": "<Exclusivo>" },
-      { "id": "106", "titulo": "<Mejor Valoración>" },
-      { "id": "107", "titulo": "<Destacado>" }
+      { "id": "102", "titulo": "<New>" },
+      { "id": "103", "titulo": "<Trending>" },
+      { "id": "104", "titulo": "<Top>" },
+      { "id": "105", "titulo": "<Exclusive>" },
+      { "id": "106", "titulo": "<Best>" },
+      { "id": "107", "titulo": "<Hot>" }
     ],
     "prioridad_media": [
-      { "id": "201", "titulo": "<Actualizado>" },
+      { "id": "201", "titulo": "<Updated>" },
       { "id": "202", "titulo": "<Beta>" },
-      { "id": "203", "titulo": "<Verificado>" },
-      { "id": "204", "titulo": "<Comunidad>" },
+      { "id": "203", "titulo": "<Verified>" },
+      { "id": "204", "titulo": "<Community>" },
       { "id": "205", "titulo": "<Sugerido>" },
-      { "id": "206", "titulo": "<Optimizado>" }
+      { "id": "206", "titulo": "<Optimized>" }
     ],
     "prioridad_baja": [
-      { "id": "301", "titulo": "<Menos Usada>" },
-      { "id": "302", "titulo": "<En Mantenimiento>" },
-      { "id": "303", "titulo": "<Próximamente>" },
-      { "id": "304", "titulo": "<Clásico>" },
+      { "id": "301", "titulo": "<Low Use>" },
+      { "id": "302", "titulo": "<Maint>" },
+      { "id": "303", "titulo": "<Soon>" },
+      { "id": "304", "titulo": "<Classic>" },
       { "id": "305", "titulo": "<Legacy>" },
       { "id": "306", "titulo": "<Experimental>" },
-      { "id": "307", "titulo": "<Versión Anterior>" }
+      { "id": "307", "titulo": "<Old Ver>" }
     ]
-  },
-  "configuracion_ia": {
-    "modo_busqueda": "POR_ID",
-    "mapeo_dinamico": "vincular_rank_id_con_titulo",
-    "formato_renderizado": "extraer_entre_brackets",
-    "ignorar_brackets": true,
-    "aplicar_estilo_por_prioridad": true
   }
 }
