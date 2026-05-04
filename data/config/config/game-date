@@ -1,0 +1,30 @@
+{
+  "control_acceso": [
+    {
+      "game_id": "ff-001",
+      "acceso": "S",
+      "mensaje_bloqueo": ""
+    },
+    {
+      "game_id": "cod-002",
+      "acceso": "N",
+      "mensaje_bloqueo": "Mantenimiento técnico"
+    },
+    {
+      "game_id": "fort-003",
+      "acceso": "N",
+      "mensaje_bloqueo": "Próximamente disponible"
+    }
+  ],
+  "config_visual": {
+    "S": {
+      "estado": "Desbloqueado",
+      "icono": "none"
+    },
+    "N": {
+      "estado": "Bloqueado",
+      "icono": "lock_icon",
+      "accion": "Deshabilitar_Click"
+    }
+  }
+}
