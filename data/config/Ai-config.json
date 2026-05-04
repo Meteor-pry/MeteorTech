@@ -16,6 +16,14 @@
     "valor_privado": "F",
     "instruccion": "Si el status es 'F', detener proceso para ese game_id."
   },
+  "config_control_acceso": {
+    "archivo_fuente": "tech/data/config/access_control.json",
+    "validacion": {
+      "S": "Acceso permitido (Abierto)",
+      "N": "Acceso denegado (Bloqueado/Candado)"
+    },
+    "accion_interfaz": "Si el valor es 'N', aplicar capa visual de bloqueo (candado) y deshabilitar interacción."
+  },
   "config_vinculacion_datos": {
     "archivo_indice": "tech/data/config/id-games.json",
     "mapeo": {
@@ -31,6 +39,6 @@
   },
   "config_interfaz": {
     "logica_ordenamiento": "Seguir propiedad 'orden' en id-games.json",
-    "renderizado": "Combinar Nombre (de /games/) + Titulo (de ranks.json) + Estado (de id-games.json)"
+    "renderizado": "Combinar Nombre (de /games/) + Titulo (de ranks.json) + Estado (de id-games.json) + Icono Candado (si access es N)"
   }
 }
